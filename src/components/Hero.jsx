@@ -22,7 +22,7 @@ const Hero = () => {
           whileInView="show"
           className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
         >
-          The best accomplishes a particular purpose{' '}
+          Best accomplishes a particular purpose{' '}
           <span className="text-blue-600 relative inline-block">
             Every developer has their own journey
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span>
