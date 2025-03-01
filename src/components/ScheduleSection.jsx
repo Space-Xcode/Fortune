@@ -39,14 +39,14 @@ const ScheduleSection = () => {
             variants={textVariant(0.5)}
             className="text-3xl md:text-4xl font-bold text-navy-900 mt-4 mb-6"
           >
-            They're just good intention to<br />
-            Space is another a big one Xcode.
+            They're just good intentions to<br />
+            Space is another big one dream
           </motion.h2>
           <motion.p 
             variants={fadeIn('up', 0.6)}
             className="text-gray-600 mb-8"
           >
-            We strive to build in adaptability as different social and profashions. These points resonate with you take, sign to refine adjust your apporoaches.
+            We strive to build in adaptability as an different socials and profashions. These are points with resonate you take, the sign to refine adjust your apporoaches.
           </motion.p>
           <motion.a 
             variants={fadeIn('up', 0.7)}

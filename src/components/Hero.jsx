@@ -37,7 +37,7 @@ const Hero = () => {
           whileInView="show"
           className="text-gray-600 text-lg md:text-xl max-w-xl"
         >
-          Creative is a inventing, experimenting, growing, talking risks, breaking rules, making mistakes and having funs.
+          Creative is a inventing, experimenting, growing, talking risks, breaking rules, making mistakes and funs.
         </motion.p>
 
         <motion.div 
@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Email Form */}
           <input
             type="email"
-            placeholder="Email address"
+            placeholder="Your email address"
             className="flex-1 px-6 py-4 border border-gray-200 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all text-gray-600"
           />
           <button className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-100 active:scale-95">

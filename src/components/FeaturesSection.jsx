@@ -6,7 +6,7 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: "🔍", 
-      title: "Create Visually Stunning",
+      title: "Visually Stunning",
       description: "Proficiency in HTML,CSS, a JavaScript along with React, Next.js, and Tailwind CSS is essentails."
     },
     {
@@ -16,8 +16,8 @@ const FeaturesSection = () => {
     },
     {
       icon: "🚀",
-      title: "Collaborate with your team",
-      description: "We would love to working on both side frontend and backend components."
+      title: "Collaborate your team",
+      description: "We would love to working on the both side frontend and backend components."
     }
   ]
 

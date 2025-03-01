@@ -6,12 +6,12 @@ const PurposeSection = () => {
     {
       icon: "🟣", // Replace with your actual icon component or image
       title: "Over-Doers",
-      description: "Feedback is genuine or just buttering up."
+      description: "Feedback is a genuine or just buttering up."
     },
     {
       icon: "🔴", // Replace with your actual icon component or image
       title: "Appreciate Balance",
-      description: "Greate ideas that never see the light follow-thought as it creativity."
+      description: "Greate ideas that never see light the follow-thought as it creativity."
     }
   ];
 
@@ -29,13 +29,13 @@ const PurposeSection = () => {
               variants={fadeIn('up', 0.4)}
               className="text-sm text-purple-600 font-medium mb-2"
             >
-              ACHIEVE MORE
+              Pull request
             </motion.div>
             <motion.h2 
               variants={textVariant(0.5)}
               className="text-3xl md:w-4/5 md:text-4xl font-bold text-gray-900"
             >
-              Purpose of a convoy is to keep your team
+              See you tomorrow max booth #424
             </motion.h2>
           </motion.div>
 

@@ -75,7 +75,7 @@ const PricingSection = () => {
             variants={fadeIn('up', 0.9)}
             className="text-center text-gray-600 mb-4"
           >
-            {productCount} products
+            {productCount} Let's products
           </motion.p>
           
           <motion.div 
@@ -104,7 +104,7 @@ const PricingSection = () => {
               variants={fadeIn('up', 1.2)}
               className="text-xl text-gray-600 mb-4"
             >
-              Ready to get started?
+              Get Started
             </motion.p>
             <motion.button 
               variants={fadeIn('up', 1.3)}
@@ -112,7 +112,7 @@ const PricingSection = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
             >
-              Get Started
+              Go from ideas
             </motion.button>
           </motion.div>
         </motion.div>

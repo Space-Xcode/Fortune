@@ -49,13 +49,13 @@ const ServicesSection = () => {
           variants={textVariant(0.2)}
           className="text-3xl md:text-4xl font-bold mb-6 md:w-4/5"
         >
-          Future of support with new shape
+          Edit the details of any step...
         </motion.h2>
         <motion.p 
           variants={fadeIn('up', 0.5)}
           className="text-gray-600 text-lg mb-4 md:w-4/5"
         >
-          Discuss your goals, determine success metrics, identify problems
+          Before generating a plan issue specification is there can be right inside.
         </motion.p>
         <motion.div 
           variants={fadeIn('up', 0.6)}
@@ -68,7 +68,7 @@ const ServicesSection = () => {
             <div className="w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center">
               <div className="w-2.5 h-2.5 rounded-full bg-indigo-600"></div>
             </div>
-            <span className="text-gray-600">UX design content strategy</span>
+            <span className="text-gray-600">A workflow that's are collabrate by defaults</span>
           </motion.div>
           <motion.div 
             variants={fadeIn('right', 0.8)}
@@ -77,7 +77,7 @@ const ServicesSection = () => {
             <div className="w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center">
               <div className="w-2.5 h-2.5 rounded-full bg-indigo-600"></div>
             </div>
-            <span className="text-gray-600">Development bring</span>
+            <span className="text-gray-600">Open Works</span>
           </motion.div>
         </motion.div>
         <motion.button 
@@ -86,7 +86,7 @@ const ServicesSection = () => {
           whileTap={{ scale: 0.95 }}
           className="mt-8 bg-indigo-600 text-white px-8 py-3 cursor-pointer rounded-full hover:bg-indigo-700 transition-colors"
         >
-          Get started
+          Build from here
         </motion.button>
       </motion.div>
 
@@ -125,7 +125,7 @@ const ServicesSection = () => {
               href={service.link}
               className="text-indigo-600 font-medium hover:text-indigo-700 transition-colors"
             >
-              LEARN MORE
+              More Joins
             </motion.a>
           </motion.div>
         ))}
