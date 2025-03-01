@@ -22,12 +22,12 @@ const Hero = () => {
           whileInView="show"
           className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
         >
-          Best accomplishes a particular purpose{' '}
+          Best accomplishes a particular purpose
           <span className="text-blue-600 relative inline-block">
-            Every developer has their own journey
+          Every developer has their own journey
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span>
           </span>{' '}
-          Event details
+          Event Details
           <span className="inline-block ml-2 animate-pulse">⏰</span>
         </motion.h1>
 
@@ -37,7 +37,7 @@ const Hero = () => {
           whileInView="show"
           className="text-gray-600 text-lg md:text-xl max-w-xl"
         >
-          Creative is inventing, experimenting, growing, talking risks, breaking rules, making mistakes and having fun.
+          Creative is a inventing, experimenting, growing, talking risks, breaking rules, making mistakes and having funs.
         </motion.p>
 
         <motion.div 

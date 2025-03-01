@@ -33,27 +33,27 @@ const ScheduleSection = () => {
             variants={fadeIn('up', 0.4)}
             className="text-orange-500 font-semibold"
           >
-            SCHEDULE
+            Push Innovation
           </motion.span>
           <motion.h2 
             variants={textVariant(0.5)}
             className="text-3xl md:text-4xl font-bold text-navy-900 mt-4 mb-6"
           >
-            Streamline Your Business <br />
-            With Smart Scheduling Solutions
+            They're just good intention to<br />
+            Space is another a big one Xcode.
           </motion.h2>
           <motion.p 
             variants={fadeIn('up', 0.6)}
             className="text-gray-600 mb-8"
           >
-            Take control of your time and boost productivity with our intelligent scheduling system. Automate appointments, manage team availability, and deliver exceptional customer experiences through seamless calendar management.
+            We strive to build in adaptability as different social and profashions. These points resonate with you take, sign to refine adjust your apporoaches.
           </motion.p>
           <motion.a 
             variants={fadeIn('up', 0.7)}
             href="#" 
             className="text-blue-500 font-semibold flex items-center gap-2 hover:gap-4 transition-all"
           >
-            Explore scheduling features
+            Gathering Equals
             <motion.svg 
               variants={fadeIn('left', 0.8)}
               className="w-5 h-5" 

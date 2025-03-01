@@ -12,7 +12,7 @@ const NewsletterSection = () => {
         whileInView="show"
         className="bg-blue-600 rounded-2xl overflow-hidden"
       >
-        <div className="relative md:px-16 px-6 py-16 md:py-24">
+        <div className="relative md:px-16 px-6 py-1 ƒ6 md:py-24">
           {/* Background Gradient */}
           <motion.div 
             variants={fadeIn('left', 0.4)}

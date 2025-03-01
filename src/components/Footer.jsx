@@ -1,21 +1,20 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, } from 'react-icons/fa'
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import { href } from 'react-router';
 
 const Footer = () => {
   const footerLinks = {
     company: [
-      { About: 'About', href: 'https://muhammadyasirmalkani.my.canva.site/shapes-in-space' },
-      { Terms_of_Use: 'Terms of Use', href: '#' },
-      { Privacy_Policy: 'Privacy Policy', href: '#' },
-      { How_it_Works: 'How it Works', href: '#' },
+      { name: 'About', href: '#' },
+      { name: 'Terms of Use', href: '#' },
+      { name: 'Privacy Policy', href: '#' },
+      { name: 'How it Works', href: '#' },
       { name: 'Contact Us', href: '#' },
     ],
     getHelp: [
       { name: 'Support Carrer', href: '#' },
-      { name: '24h Service', href: '#' },
+      { name: 'Price', href: '#' },
       { name: 'Quick Chat', href: '#' },
     ],
     support: [
@@ -58,7 +57,7 @@ const Footer = () => {
               variants={fadeIn('up', 0.6)}
               className="text-gray-600 mb-6"
             >
-              The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.
+              Join our graphic design agency as a full-time web developer.
             </motion.p>
             <motion.div 
               variants={fadeIn('up', 0.7)}
@@ -66,7 +65,7 @@ const Footer = () => {
             >
               <motion.a 
                 whileHover={{ scale: 1.1 }}
-                href="https://facebook.com/SpaceXcode1" 
+                href="#" 
                 className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition-colors"
               >
                 <FaFacebookF className="w-5 h-5" />
@@ -80,7 +79,7 @@ const Footer = () => {
               </motion.a>
               <motion.a 
                 whileHover={{ scale: 1.1 }}
-                href="https://www.linkedin.com/in/spacexcode/" 
+                href="#" 
                 className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 hover:bg-blue-700 hover:text-white transition-colors"
               >
                 <FaLinkedinIn className="w-5 h-5" />
@@ -143,13 +142,13 @@ const Footer = () => {
               variants={fadeIn('right', 1.0)}
               className="text-gray-600 text-sm"
             >
-              Copyright © {new Date().getFullYear()} Space-Xcode
+              Copyright © {new Date().getFullYear()} Space Xcode
             </motion.p>
             <motion.p 
               variants={fadeIn('left', 1.0)}
               className="text-gray-600 text-sm"
             >
-              Created by Space Xcode
+              Space Xcode
             </motion.p>
           </motion.div>
         </motion.div>

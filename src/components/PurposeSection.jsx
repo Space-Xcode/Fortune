@@ -5,13 +5,13 @@ const PurposeSection = () => {
   const features = [
     {
       icon: "🟣", // Replace with your actual icon component or image
-      title: "Built for impact",
-      description: "We identify and nurture a truly diverse team of designers, developers and marketers"
+      title: "Over-Doers",
+      description: "Feedback is genuine or just buttering up."
     },
     {
       icon: "🔴", // Replace with your actual icon component or image
-      title: "In sync with you",
-      description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
+      title: "Appreciate Balance",
+      description: "Greate ideas that never see the light follow-thought as it creativity."
     }
   ];
 
