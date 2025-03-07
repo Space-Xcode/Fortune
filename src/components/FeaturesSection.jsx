@@ -5,80 +5,80 @@ import { fadeIn, textVariant } from "../utils/motion";
 const FeaturesSection = () => {
   const features = [
     {
-      icon: "🔍", 
+      icon: "🔍",
       title: "Visually Stunning",
       description: "Proficiency in HTML,CSS, a JavaScript along with React, Next.js, and Tailwind CSS is essentails."
     },
     {
       icon: "⚙️",
-      title: "User-frindly", 
+      title: "User-frindly",
       description: "If you thrive in a fast-paced environment, we want to hear from you."
     },
     {
       icon: "🚀",
       title: "Collaborate your team",
-      description: "We would love to working on the both side frontend and backend components."
+      description: "We would love to working on both sides frontend and backend components."
     }
   ]
 
   return (
-    <motion.section 
+    <motion.section
       variants={fadeIn('up', 0.2)}
       initial="hidden"
       whileInView="show"
       className="max-w-7xl mx-auto px-4 py-16"
     >
-      <motion.div 
+      <motion.div
         variants={fadeIn('up', 0.3)}
         className="text-center mb-12"
       >
-        <motion.h2 
+        <motion.h2
           variants={textVariant(0.2)}
           className="text-3xl font-bold mb-4"
         >
-           Looking for talented and full stack
+          Looking for talented and full stack
         </motion.h2>
-        <motion.p 
+        <motion.p
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          Developer to join our dynamic you some don't make the cut.
+          Developer to join our dynamic you some don't make the cuts.
         </motion.p>
       </motion.div>
-      
-      <motion.div 
+
+      <motion.div
         variants={fadeIn('up', 0.5)}
         className="grid grid-cols-1 md:grid-cols-3 gap-8"
       >
         {features.map((feature, index) => (
-          <motion.div 
+          <motion.div
             key={index}
             variants={fadeIn('up', 0.3 * (index + 1))}
             className="flex flex-col items-center p-6"
           >
-            <motion.div 
+            <motion.div
               variants={fadeIn('down', 0.4 * (index + 1))}
-              className="w-24 h-24 rounded-full mb-6 flex items-center justify-center" 
-              style={{ 
-                backgroundColor: index === 0 ? '#F1EFFD' : 
-                               index === 1 ? '#FFE7E7' : 
-                               '#FFF3E4'
+              className="w-24 h-24 rounded-full mb-6 flex items-center justify-center"
+              style={{
+                backgroundColor: index === 0 ? '#F1EFFD' :
+                  index === 1 ? '#FFE7E7' :
+                    '#FFF3E4'
               }}
             >
-              <motion.div 
+              <motion.div
                 variants={fadeIn('up', 0.5 * (index + 1))}
                 className="text-3xl"
               >
                 {feature.icon}
               </motion.div>
             </motion.div>
-            <motion.h3 
+            <motion.h3
               variants={textVariant(0.3)}
               className="text-2xl font-medium mb-3"
             >
               {feature.title}
             </motion.h3>
-            <motion.p 
+            <motion.p
               variants={fadeIn('up', 0.6 * (index + 1))}
               className="text-gray-500 text-center"
             >
@@ -88,11 +88,11 @@ const FeaturesSection = () => {
         ))}
       </motion.div>
 
-      <motion.div 
+      <motion.div
         variants={fadeIn('up', 0.7)}
         className="text-center mt-12"
       >
-        <motion.button 
+        <motion.button
           variants={fadeIn('up', 0.8)}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

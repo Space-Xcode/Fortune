@@ -12,11 +12,11 @@ const Hero = () => {
           {/* Star badge */}
           <div className="flex items-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer group">
             <span className="text-blue-600 group-hover:scale-110 transition-transform">★</span>
-            <span className="text-sm font-medium">Providing step-by-step instructions</span>
+            <span className="text-sm font-medium">Provide step-by-step instructions</span>
           </div>
         </motion.div>
 
-        <motion.h1 
+        <motion.h1
           variants={textVariant(0.3)}
           initial="hidden"
           whileInView="show"
@@ -24,23 +24,23 @@ const Hero = () => {
         >
           Best accomplishes a particular purpose
           <span className="text-blue-600 relative inline-block">
-          Every developer has their own journey
+            Every developer has their own journey
             <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span>
           </span>{' '}
           Event Details
           <span className="inline-block ml-2 animate-pulse">⏰</span>
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           variants={fadeIn('up', 0.4)}
           initial="hidden"
           whileInView="show"
           className="text-gray-600 text-lg md:text-xl max-w-xl"
         >
-          Creative is a inventing, experimenting, growing, talking risks, breaking rules, making mistakes and funs.
+          Creative is inventing, experimenting, growing, talking risks, breaking rules, making mistakes and funs.
         </motion.p>
 
-        <motion.div 
+        <motion.div
           variants={fadeIn('up', 0.5)}
           initial="hidden"
           whileInView="show"
@@ -59,7 +59,7 @@ const Hero = () => {
       </div>
 
       {/* Right Column - Images */}
-      <motion.div 
+      <motion.div
         variants={fadeIn('left', 0.5)}
         initial="hidden"
         whileInView="show"

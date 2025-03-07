@@ -9,33 +9,33 @@ import { fadeIn, textVariant } from "../utils/motion";
 const testimonials = [
   {
     id: 1,
-    name: "Robin Ayala Doe", 
+    name: "Robin",
     image: "https://randomuser.me/api/portraits/men/77.jpg",
-    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.",
+    text: "A wide view of the modern graphic design agency, showcasing open workspaces with colorful artwork adorning the walls and digital screens displaying creative projects. Designers are seen collaborating and brainstorming in groups.",
   },
   {
     id: 2,
-    name: "John De marli",
-    image: "https://randomuser.me/api/portraits/women/90.jpg", 
-    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.",
+    name: "Farsa",
+    image: "https://randomuser.me/api/portraits/women/90.jpg",
+    text: "Utilize responsive design techniques, animations, and interactive elements to enhance user engagement. Consider using existing templates or projects as references for inspiration.",
   },
   {
     id: 3,
-    name: "Rowhan Smith",
+    name: "Smith",
     image: "https://randomuser.me/api/portraits/men/90.jpg",
-    text: "When she reached the first hills of the Mountains, she had a last view back on the of her hometown Bookmarksgrove, the headline.",
+    text: "The component is fully interactive and includes proper shadows, borders and spacing. It's also scrollable to accommodate all content.",
   },
   {
     id: 4,
-    name: "Sarah Johnson",
+    name: "Alaska",
     image: "https://randomuser.me/api/portraits/women/45.jpg",
-    text: "The customer service has been exceptional. They went above and beyond to help me solve my problems and were always available when I needed them.",
+    text: "Alex Thompson standing at the entrance of the agency, holding a laptop bag in one hand. He looks around the space, taking in the vibrant atmosphere.",
   },
   {
     id: 5,
-    name: "Michael Chen",
+    name: "Michael",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "I've been using their services for over a year now and couldn't be happier. The platform is intuitive and the features are exactly what I needed for my business.",
+    text: "The conference room is seen from the entrance, showing a large table covered with sketches and mood boards. Team members are seated around the table, engaged in conversation.",
   },
   {
     id: 6,
@@ -49,25 +49,25 @@ const testimonials = [
 const TestimonialsSection = () => {
   return (
     <section id="testimonials" className="py-16 px-4 max-w-7xl mx-auto">
-      <motion.div 
+      <motion.div
         variants={fadeIn('up', 0.3)}
         className="text-center mb-12"
       >
-        <motion.h2 
+        <motion.h2
           variants={textVariant(0.2)}
           className="text-3xl md:text-4xl font-bold mb-4"
         >
           What our happy client say
         </motion.h2>
-        <motion.p 
+        <motion.p
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          Things that make it the best place to start trading
+          Sure! Just send me the AI-generated text you'd like me to humanize, and l'll take care of it
         </motion.p>
       </motion.div>
 
-      <motion.div 
+      <motion.div
         variants={fadeIn('up', 0.5)}
         className="relative"
       >
@@ -93,11 +93,11 @@ const TestimonialsSection = () => {
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={testimonial.id} className='h-full md:py-12 py-4'>
-              <motion.div 
+              <motion.div
                 variants={fadeIn('up', 0.3 * (index + 1))}
                 className="text-center bg-white p-4 rounded-lg shadow-md h-full flex flex-col"
               >
-                <motion.div 
+                <motion.div
                   variants={fadeIn('down', 0.4 * (index + 1))}
                   className="w-24 h-24 mx-auto mb-4"
                 >
@@ -108,13 +108,13 @@ const TestimonialsSection = () => {
                     className="w-full h-full object-cover rounded-full"
                   />
                 </motion.div>
-                <motion.div 
+                <motion.div
                   variants={fadeIn('up', 0.4 * (index + 1))}
                   className="flex justify-center mb-2"
                 >
                   {[...Array(5)].map((_, starIndex) => (
-                    <motion.span 
-                      key={starIndex} 
+                    <motion.span
+                      key={starIndex}
                       variants={fadeIn('up', 0.1 * starIndex)}
                       className="text-blue-600"
                     >
@@ -122,13 +122,13 @@ const TestimonialsSection = () => {
                     </motion.span>
                   ))}
                 </motion.div>
-                <motion.h3 
+                <motion.h3
                   variants={textVariant(0.3)}
                   className="font-semibold text-xl mb-3"
                 >
                   {testimonial.name}
                 </motion.h3>
-                <motion.p 
+                <motion.p
                   variants={fadeIn('up', 0.6 * (index + 1))}
                   className="text-gray-600"
                 >
@@ -140,11 +140,11 @@ const TestimonialsSection = () => {
         </Swiper>
 
         {/* Custom Navigation Buttons */}
-        <motion.div 
+        <motion.div
           variants={fadeIn('up', 0.7)}
           className="flex justify-center gap-4 mt-8"
         >
-          <motion.button 
+          <motion.button
             variants={fadeIn('right', 0.8)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -152,7 +152,7 @@ const TestimonialsSection = () => {
           >
             <BsChevronLeft className="w-6 h-6" />
           </motion.button>
-          <motion.button 
+          <motion.button
             variants={fadeIn('left', 0.8)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

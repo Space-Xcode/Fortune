@@ -46,7 +46,7 @@ const ScheduleSection = () => {
             variants={fadeIn('up', 0.6)}
             className="text-gray-600 mb-8"
           >
-            We strive to build in adaptability as an different socials and profashions. These are points with resonate you take, the sign to refine adjust your apporoaches.
+            We strive to build in adaptability as an different social and profashions. These are points with resonate you take, sign to the refine adjust your apporoaches.
           </motion.p>
           <motion.a 
             variants={fadeIn('up', 0.7)}
