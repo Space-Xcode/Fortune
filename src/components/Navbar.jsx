@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { motion } from "framer-motion";
-import { fadeIn} from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -10,12 +10,12 @@ const Navbar = () => {
   const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
-    { href: "#price", label: "Price" },
+    { href: "https://quick-ecommerce.vercel.app", label: "Pricing" },
     { href: "#WorkSpace", label: "WorkSpace" },
   ]
 
   return (
-    <motion.nav 
+    <motion.nav
       variants={fadeIn('down', 0.2)}
       initial="hidden"
       whileInView="show"
@@ -24,21 +24,21 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center container mx-auto px-4 sm:px-6 lg:px-8 md:h-20 h-16">
         {/* Logo */}
-        <motion.div 
+        <motion.div
           variants={fadeIn('right', 0.3)}
           className="flex items-center gap-1 cursor-pointer"
         >
-          <motion.div 
+          <motion.div
             whileHover={{ scale: 1.1 }}
             className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"
           ></motion.div>
-          <motion.div 
+          <motion.div
             whileHover={{ scale: 1.1 }}
             className="w-4 h-4 bg-red-500 rounded-full -ml-2 hover:opacity-75 transition-opacity"
           ></motion.div>
         </motion.div>
         {/* Mobile Menu Button */}
-        <motion.button 
+        <motion.button
           variants={fadeIn('left', 0.3)}
           className="md:hidden p-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -51,12 +51,12 @@ const Navbar = () => {
         </motion.button>
 
         {/* Navigation Links - Desktop */}
-        <motion.div 
+        <motion.div
           variants={fadeIn('down', 0.3)}
           className="hidden md:flex items-center gap-10"
         >
           {navLinks.map((link, index) => (
-            <motion.a 
+            <motion.a
               key={index}
               variants={fadeIn('down', 0.1 * (index + 1))}
               href={link.href}
@@ -70,7 +70,7 @@ const Navbar = () => {
         </motion.div>
 
         {/* CTA Button */}
-        <motion.button 
+        <motion.button
           variants={fadeIn('left', 0.3)}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -82,13 +82,13 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <motion.div 
+        <motion.div
           variants={fadeIn('down', 0.2)}
           initial="hidden"
           animate="show"
           className="md:hidden bg-white border-t border-gray-100 py-4"
         >
-          <motion.div 
+          <motion.div
             variants={fadeIn('down', 0.3)}
             className="container mx-auto px-4 space-y-4"
           >
@@ -107,7 +107,7 @@ const Navbar = () => {
                 {link.label}
               </motion.a>
             ))}
-            <motion.button 
+            <motion.button
               variants={fadeIn('up', 0.4)}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}

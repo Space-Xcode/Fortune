@@ -6,7 +6,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const Footer = () => {
   const footerLinks = {
     company: [
-      { name: 'About', href: '#' },
+      { name: 'About', href: 'https://fortune-model.vercel.app' },
       { name: 'Terms of Use', href: '#' },
       { name: 'Privacy Policy', href: '#' },
       { name: 'How it Works', href: 'https://graphic-design-website-price-feedback.vercel.app' },
@@ -14,13 +14,13 @@ const Footer = () => {
     ],
     getHelp: [
       { name: 'Support Carrer', href: '#' },
-      { name: 'Price', href: '#' },
+      { name: 'Pricing', href: '#' },
       { name: 'Quick Chat', href: '#' },
     ],
     support: [
       { name: 'FAQ', href: '#' },
       { name: 'Policy', href: '#' },
-      { name: 'Business', href: '#' },
+      { name: 'Business', href: 'https://quick-ecommerce.vercel.app' },
     ],
     contact: [
       { name: 'WhatsApp', href: '#' },
