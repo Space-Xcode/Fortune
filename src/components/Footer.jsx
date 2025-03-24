@@ -57,7 +57,7 @@ const Footer = () => {
               variants={fadeIn('up', 0.6)}
               className="text-gray-600 mb-6"
             >
-              Join our graphic design agency as a full-time web developers.
+              Our graphic design agency as a full-time web developers.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.7)}
@@ -142,13 +142,13 @@ const Footer = () => {
               variants={fadeIn('right', 1.0)}
               className="text-gray-600 text-sm"
             >
-              Copyright © {new Date().getFullYear()} Space Xcode
+              Copyright © {new Date().getFullYear()} Unique Day
             </motion.p>
             <motion.p
               variants={fadeIn('left', 1.0)}
               className="text-gray-600 text-sm"
             >
-              Space Xcode
+              Unique Day
             </motion.p>
           </motion.div>
         </motion.div>

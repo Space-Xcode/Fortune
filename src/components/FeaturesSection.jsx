@@ -36,13 +36,13 @@ const FeaturesSection = () => {
           variants={textVariant(0.2)}
           className="text-3xl font-bold mb-4"
         >
-          Looking for talented and full stack
+          Looking for talented and full stack developer
         </motion.h2>
         <motion.p
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          Developer to join our dynamic you some don't make the cuts.
+          Join our dynamic you some don't make the cuts.
         </motion.p>
       </motion.div>
 
