@@ -32,7 +32,7 @@ A sleek and responsive landing page built with React, Tailwind CSS, and Framer M
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/mdalmamunit427/modern-business-landing-page-react-tailwindcss
+git clone https://github.com/Space-Xcode/Fortune/tree/main
 
 cd modern-business-landing-page-react-tailwindcss
 ```
@@ -76,8 +76,5 @@ src/
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-
 
 # SpaceXcode
