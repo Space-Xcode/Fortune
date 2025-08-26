@@ -7,7 +7,7 @@ import monitorCardBg from '../assets/monitor-card.webp';
 const MonitorSection = () => {
   return (
     <motion.section 
-      variants={fadeIn('up', 0.2)}
+      variants={fadeIn('up', 4.5)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
@@ -16,7 +16,7 @@ const MonitorSection = () => {
       <div className="flex flex-col md:flex-row items-center gap-12">
         {/* Left side - Content */}
         <motion.div 
-          variants={fadeIn('right', 0.3)}
+          variants={fadeIn('right', 4.6)}
           className="w-full md:w-1/2"
         >
           <motion.span 
