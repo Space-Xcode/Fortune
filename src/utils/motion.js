@@ -11,7 +11,7 @@ export const fadeIn = (direction, delay) => {
       opacity: 1,
       transition: {
         type: "spring",
-        duration: 1.25,
+        duration: 1.5,
         delay: delay,
         ease: [0.25, 0.25, 0.25, 0.75],
       }
@@ -61,7 +61,7 @@ export const textVariant = (delay) => {
       opacity: 1,
       transition: {
         type: "spring",
-        duration: 1.25,
+        duration: 1.2,
         delay,
       }
     }
