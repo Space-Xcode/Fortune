@@ -17,7 +17,7 @@ const CompanyLogo = () => {
           <img
             key={index}
             src={logo}
-            alt={`Company Logo ${index + 1}`}
+            alt={`Company Logo ${index + 5}`}
             className="mx-12 h-8 w-36 object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
           />
         ))}
@@ -26,7 +26,7 @@ const CompanyLogo = () => {
           <img
             key={`duplicate-${index}`}
             src={logo}
-            alt={`Company Logo ${index + 1}`}
+            alt={`Company Logo ${index + 8}`}
             className="mx-12 h-8 w-36 object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
           />
         ))}
